@@ -3,9 +3,9 @@ calc_input = input()
 
 def main(query_for_calc):
     calc_input_lst = calc_input.split()
-    operation = calc_input[1]
-    number_1 = calc_input[0]
-    number_2 = calc_input[2]
+    operation = calc_input_lst[1]
+    number_1 = float(calc_input_lst[0])
+    number_2 = float(calc_input_lst[2])
     if operation == "+":
         res = addition(number_1, number_2)
     if operation == "-":
@@ -19,3 +19,6 @@ def main(query_for_calc):
         pass
     return res
 
+def addition(n1, n2):
+    res = n1 + n2
+    return res
