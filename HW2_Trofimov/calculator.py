@@ -19,7 +19,3 @@ def main(query_for_calc):
         pass
     return res
 
-
-def addition(n1, n2):
-    res = n1 + n2
-    return res
