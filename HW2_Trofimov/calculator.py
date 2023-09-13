@@ -9,8 +9,7 @@ def main(query_for_calc):
     if operation == "+":
         res = addition(number_1, number_2)
     if operation == "-":
-        # res = subtraction(number_1, number_2)
-        pass
+        res = substraction(number_1, number_2)
     if operation == "*":
         # res = multiplication(number_1, number_2)
         pass
@@ -24,5 +23,6 @@ def addition(n1, n2):
     res = n1 + n2
     return res
 
-def substract(n1, n2):
-    return (n1-n2)
+def substraction(n1, n2):
+    res = n1 -n2
+    return res
