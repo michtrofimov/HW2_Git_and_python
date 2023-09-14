@@ -15,8 +15,7 @@ def main(query_for_calc):
         # res = multiplication(number_1, number_2)
         pass
     if operation == "/":
-        # res = division(number_1, number_2)
-        pass
+        res = division(number_1, number_2)
     return res
 
 
