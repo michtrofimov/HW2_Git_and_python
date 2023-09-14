@@ -14,8 +14,7 @@ def main(query_for_calc):
         # res = addition(number_1, number_2)
         pass
     elif operation == "-":
-        # res = subtraction(number_1, number_2)
-        pass
+        res = subtraction(number_1, number_2)
     elif operation == "*":
         res = multiplication(number_1, number_2)
     elif operation == "/":
@@ -28,4 +27,8 @@ main(calc_input)
 
 def multiplication(number_1, number_2):
     res = number_1 * number_2
+    return res
+
+def subtraction (number_1, number_2):
+    res = number_1 - number_2
     return res
