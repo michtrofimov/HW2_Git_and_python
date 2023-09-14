@@ -11,8 +11,7 @@ def main(query_for_calc):
     number_2 = float(number_2)
 
     if operation == "+":
-        # res = addition(number_1, number_2)
-        pass
+        res = addition(number_1, number_2)
     elif operation == "-":
         res = subtraction(number_1, number_2)
     elif operation == "*":
@@ -31,4 +30,8 @@ def multiplication(number_1, number_2):
 
 def subtraction (number_1, number_2):
     res = number_1 - number_2
+    return res
+
+def addition (number_1, number_2):
+    res = number_1 + number_2
     return res
